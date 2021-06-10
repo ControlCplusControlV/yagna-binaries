@@ -12,9 +12,10 @@ This build is for 64 bit arm architecture, also known as aarch64. This has been 
 2. Run ```sudo apt update && sudo apt upgrade```to get your packages up to date
 3. Then install a needed dependency via 
  ```sudo apt-get install libpixman-1-0```
-4. Then clone this repo via
-```git clone https://github.com/MarijnStevens/yagna-binaries.git```
-5. Go into the yagna-binaries folder and run the following 
+4. Then get the latest release via
+```curl -LJO https://github.com/MarijnStevens/yagna-aarch64/releases/tag/v0.6.7-beta.1.034```
+4.5 Unzip the resulting tarball (sudo apt install unzip if you haven't)
+5. Go into the version folder and run the following 
 ```Bash 
 $ chmod +x ./install.sh
 $ ./install.sh 
